@@ -2,7 +2,7 @@
 
 #' @export
 
-BioCG_welcome = function(name){
+BioCG_welcome = function(){
   t = seq(0,60,len=100)
   plot(c(-8,8),c(0,20),type='n',axes=FALSE,xlab='',ylab='')
   x = -.01*(-t^2+40*t+1200)*sin(pi*t/180)
