@@ -4,7 +4,7 @@
 \alias{BioCG_welcome}
 \title{Welcome people}
 \usage{
-BioCG_welcome(name)
+BioCG_welcome(name = "Client")
 }
 \description{
 Welcome people
