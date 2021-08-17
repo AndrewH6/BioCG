@@ -2,7 +2,7 @@
 
 #' @export
 
-BCG_cat_Missing <- function(x,the_name = "Missing"){
+BioCG_cat_Missing <- function(x,the_name = "Missing"){
 
   if(!is.null(levels(x))){
     old_level <- levels(x)
