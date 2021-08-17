@@ -4,7 +4,7 @@
 \alias{BioCG_1_cat}
 \title{Summarize one categorical variable}
 \usage{
-BioCG_1_cat(x, the_var)
+BioCG_1_cat(x, the_var = "variable")
 }
 \description{
 Summarize one categorical variable
