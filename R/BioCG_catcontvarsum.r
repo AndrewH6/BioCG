@@ -12,7 +12,7 @@ the_var_index <- getcol(data_mat,var_name)
 if(cat_var == TRUE){
   catvarsum(data_mat,the_var_index,the_var_index)
 } else if(cat_var == FALSE){
-  catcontvarsum(data_mat,the_var_index,the_var_index)
+  contvarsum(data_mat,the_var_index,the_var_index)
 }
 
 }
