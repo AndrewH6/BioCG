@@ -2,7 +2,7 @@
 
 #' @export
 
-contvarsum=function(mat, idcol, varcol, doplot=T,myuni=T,check5=F,print5=T) {
+BioCG_contvarsum=function(mat, idcol, varcol, doplot=T,myuni=T,check5=F,print5=T) {
   #provides a nice summary for a continuous variable, with optional boxplot, histogram
   #assumes that missing data are NA or "NA", all other values would be considered non-missing (ie 9999) so may need to change up some things in pre-processing of any truly missing values
   #checks to see if any counts are too small to exit CaraSpace; would only be the case if data less than 5 because some of the summaries might also be the exact data
