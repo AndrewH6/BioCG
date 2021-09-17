@@ -10,9 +10,9 @@ data_mat <- data.frame(data_mat)
 the_var_index <- getcol(data_mat,var_name)
 
 if(cat_var == TRUE){
-  catvarsum(data_mat,the_var_index,the_var_index)
+  BioCG::catvarsum(data_mat,the_var_index,the_var_index)
 } else if(cat_var == FALSE){
-  contvarsum(data_mat,the_var_index,the_var_index)
+  BioCG::contvarsum(data_mat,the_var_index,the_var_index)
 }
 
 }
